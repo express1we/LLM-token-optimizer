@@ -1,0 +1,6 @@
+# Cursor AI project rules
+# Pre-approve standard development commands for tokenopt
+
+You are working on tokenopt, a Python-based LLM token optimization library.
+Use pytest for testing, black for formatting, ruff for linting.
+Default model for examples: gpt-5.4

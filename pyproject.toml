@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "tokenopt"
+version = "0.3.1"
+description = "LLM Token Optimizer — analyze, compress, and optimize prompts"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "tiktoken>=0.5.0",
+    "click>=8.1.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.104.0", "uvicorn[standard]>=0.24.0"]
+dev = ["pytest>=7.4.0", "black>=23.0.0", "ruff>=0.1.0"]
+
+[project.scripts]
+tokenopt = "tokenopt.cli:main"
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

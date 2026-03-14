@@ -1,0 +1,6 @@
+# Codex project configuration
+# See https://github.com/openai/codex for options
+
+[project]
+name = "tokenopt"
+language = "python"

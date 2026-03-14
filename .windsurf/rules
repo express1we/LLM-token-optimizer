@@ -1,0 +1,5 @@
+# Windsurf project rules
+# Standard development configuration for tokenopt
+
+Use pytest for testing, black for formatting, ruff for linting.
+Python 3.9+ required. Default model: gpt-5.4
