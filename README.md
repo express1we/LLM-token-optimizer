@@ -1,6 +1,6 @@
 # tokenopt — LLM Token Optimizer
 
-A lightweight CLI and library for analyzing, compressing, and optimizing prompts to reduce token usage across OpenAI and Google models.
+A lightweight CLI and library for analyzing, compressing, and optimizing prompts to reduce token usage across OpenAI, Google, Meta, and DeepSeek models.
 
 ## Features
 

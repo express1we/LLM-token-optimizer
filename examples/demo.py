@@ -23,7 +23,7 @@ def main():
     # 1. Count tokens
     print("\n1. Token Counting")
     print("-" * 40)
-    for model in ["gpt-5.4", "gpt-5.3-codex", "gemini-2.5-pro"]:
+    for model in ["gpt-5.4", "gpt-5.3-codex", "gemini-2.5-pro", "llama-4-maverick", "deepseek-r1"]:
         result = count_tokens(sample, model)
         print(f"  {model}: {result.count} tokens ({result.chars} chars)")
 
